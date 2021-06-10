@@ -8,8 +8,8 @@ y = [1, 7, 3, 5, 11]   # Список № 2
 
 plt.plot(x, y, label='steel price')            #Корды
 plt.title('Chart price', fontsize=15)
-plt.xlabel('Day', fontsize=12, color='blue')   # Колор
-plt.ylabel('Price', fontsize=12, color='blue') # Колор
+plt.xlabel('Day', fontsize=12, color='blue')   # цвет
+plt.ylabel('Price', fontsize=12, color='blue') # цвет
 plt.legend()
 plt.grid(True)
 plt.text(15, 4, 'grow up!')
