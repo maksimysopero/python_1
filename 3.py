@@ -15,7 +15,7 @@ plt.subplot(2, 1, 1)  # Расположение поля в области гр
 plt.plot(x, y1)
 plt.title("Зависимости: y1 = x, y2 = x^2") 
 plt.ylabel("y1", fontsize=14) # ось y
-plt.grid(True) # реал тру сетка(стринги)
+plt.grid(True) 
 plt.subplot(2, 1, 2)    
 plt.plot(x, y2) # Построение графика
 plt.xlabel("x", fontsize=14) # Ось x
